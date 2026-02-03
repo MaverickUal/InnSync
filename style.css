@@ -23,26 +23,3 @@ body {
   color: white;
 }
 
-
-.hero h1 {
-  font-size: 4rem;
-}
-
-.page-content {
-  margin-top: 40px;
-}
-
-.service-card {
-  padding: 20px;
-  text-align: center;
-  border-radius: 15px;
-  box-shadow: 0 4px 12px rgba(0,0,0,.1);
-}
-
-.footer {
-  background: #1c1c1c;
-  color: white;
-  text-align: center;
-  padding: 15px;
-  margin-top: 40px;
-}
