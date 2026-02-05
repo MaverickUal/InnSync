@@ -10,7 +10,7 @@ body {
 .hero {
   height: 90vh;
   background:
-    linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0,0,0,.6)),
     url("image/bg.jpg");
   background-size: cover;
   background-position: center;
@@ -20,6 +20,15 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: white;
+  color: rgb(255, 255, 255);
 }
+
+.card-img-top {
+  height: 200px;      
+  object-fit: cover;  
+}
+
+
+
+
 
