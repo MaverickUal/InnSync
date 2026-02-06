@@ -1,34 +1,47 @@
 body {
-  padding-top: 70px;
   font-family: 'Segoe UI', sans-serif;
 }
 
+.btn {
+  background-color: #0c0801;
+  color: #fff;
+  border: none;
+}
+
 .navbar {
+  color: #c9a45c !important;
+  font-weight: 600;
   background-color: #1c1c1c;
 }
 
-.hero {
-  height: 90vh;
-  background:
-    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0,0,0,.6)),
+.home-banner {
+ height: 90vh;
+  background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)),
     url("image/bg.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: rgb(255, 255, 255);
+  color: white
+}
+
+.midtext h4 {
+  font-weight: bold;
+}
+
+.midtext p {
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+.welcome-section {
+  padding: 80px 0;
+  background-color: #000000;
+  color: white
 }
 
 .card-img-top {
   height: 200px;      
   object-fit: cover;  
 }
-
-
-
-
-
