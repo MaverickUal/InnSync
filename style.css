@@ -46,3 +46,163 @@ body {
   height: 200px;      
   object-fit: cover;  
 }
+/*seb*/
+.services-hero {
+  height: auto;
+  min-height: 100vh;
+  padding: 60px 0 0;
+  position: relative;
+  display: block;
+}
+
+.services-container {
+  max-width: 1200px;
+  padding: 0 40px;
+  position: relative;
+  z-index: 2;
+  margin-bottom: 280px;
+}
+
+.services-main-title {
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 2.8rem;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 5px;
+  border-top: 1px solid rgba(255,255,255,0.3);
+  border-bottom: 1px solid rgba(255,255,255,0.3);
+  padding: 15px 40px;
+  display: inline-block;
+}
+
+.services-tagline {
+  font-family: 'Segoe UI', sans-serif;
+  font-style: italic;
+  color: rgba(255,255,255,0.9);
+  font-size: 1.1rem;
+  margin-top: 10px;
+  letter-spacing: 2px;
+}
+
+.services-intro {
+  color: white;
+  font-size: 1rem;
+  line-height: 1.8;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.services-intro p {
+  margin-bottom: 0;
+}
+
+.btn-book {
+  background-color: #6b4423;
+  color: white;
+  padding: 12px 35px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.btn-book:hover {
+  background-color: #8b5a2b;
+  color: white;
+}
+
+.services-column {
+  padding: 0 15px;
+}
+
+.section-heading {
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 12px;
+}
+
+.services-list {
+  list-style: none;
+  padding-left: 0;
+  color: white;
+  font-size: 0.9rem;
+  line-height: 1.7;
+  margin-bottom: 0;
+}
+
+.services-list li {
+  padding-left: 20px;
+  position: relative;
+  margin-bottom: 6px;
+}
+
+.services-list li::before {
+  content: "●";
+  position: absolute;
+  left: 0;
+  color: #ffffff;
+  font-size: 0.7rem;
+}
+
+.gallery-section-overlay {
+  width: 100%;
+  position: absolute;
+  bottom: -150px;
+  left: 0;
+  padding: 60px 0 80px;
+  z-index: 5;
+  overflow: visible;
+}
+
+.gallery-wrapper {
+  overflow: hidden;
+  width: 100%;
+  padding: 30px 0;
+}
+
+.track {
+  display: flex;
+  width: max-content;
+  gap: 20px;
+  padding: 0 20px;
+  animation: scroll 40s linear infinite;
+}
+
+.track:hover {
+  animation-play-state: paused;
+}
+
+.img-box {
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  flex-shrink: 0;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.img-box:hover {
+  transform: scale(1.15);
+  z-index: 10;
+  border-radius: 10px;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
