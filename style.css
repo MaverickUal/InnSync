@@ -206,3 +206,55 @@ body {
     transform: translateX(-50%);
   }
 }
+
+.hero-about {
+  height: 35vh;
+  background:
+    linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
+    url("image/about_bg.jpg");
+  background-size: cover;
+  background-position: center;
+  
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+ 
+}
+
+.padding {
+   
+    width: 100%;
+    height: 100%;
+    padding: 70px;
+}
+
+.padding-1 {
+   
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+.content {
+   
+    width: 100%;
+    height: 100%;
+    color: black;
+    font-size: 20px;
+    text-align: left;
+    justify-content: center;
+}
+
+.justify
+{
+  text-align: justify;
+}
+
+.title-bold
+{
+  font-weight: bold;
+  font-size: 35px;
+}
