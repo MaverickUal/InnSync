@@ -258,3 +258,111 @@ body {
   font-weight: bold;
   font-size: 35px;
 }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.Contents{
+    width: 80%;
+    margin: 50px auto;
+     background:
+    linear-gradient(rgba(80, 77, 77, 0.6), rgba(80, 75, 75, 0.6)),
+    url("image/contact-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    padding: 50px;
+    border-radius: 10px;
+}
+.contact-box{
+    background: #ffffff;
+    display: flex;
+}
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+.contact-right{
+    flex-basis: 40%;
+    text-align: left;
+    padding: 40px;
+    background: #222121;
+    color:#fff;
+}
+h1{
+    margin-bottom: 10px;
+}
+.Contents p{
+    margin-bottom: 40px;
+}
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.input-row .input-group{
+    flex-basis: 45%;
+}
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+}
+textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+label{
+    margin-bottom: 6px;
+    display: block;
+    color: #181819;
+}
+button{
+    background: #605f65;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+.contact-left h3{
+    color: #605f65;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+contact-right h3{
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+tr td{
+    padding-right: 20px; 
+}
+tr td{
+    padding-top: 20px;
+}
+
+.hero-contact{
+  height: max-content;
+  background:
+  linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
+  url("image/contact_bg.jpg");
+  
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
