@@ -1,0 +1,38 @@
+body{
+font-family:'Segoe UI',sans-serif;
+}
+
+.navbar{
+background-color:#1c1c1c;
+}
+
+.home-banner{
+height:90vh;
+background:
+linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)),
+url("image/bg.jpg");
+background-size:cover;
+background-position:center;
+
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+}
+
+.welcome-section{
+background:#222;
+padding:60px 0;
+color:white;
+}
+
+.btn-warning{
+background:#8B5A2B;
+border:none;
+color:white;
+}
+
+.btn-warning:hover{
+background:#a96a35;
+}
