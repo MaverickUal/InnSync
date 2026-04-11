@@ -1,0 +1,22 @@
+# InnSync - InfinityFree Hosting Configuration
+Options -Indexes
+
+# PHP Settings for InfinityFree shared hosting
+<IfModule mod_php.c>
+    php_value upload_max_filesize 10M
+    php_value post_max_size 12M
+    php_value max_execution_time 60
+    php_value session.cookie_httponly 1
+</IfModule>
+
+# Prevent direct access to sensitive files
+<FilesMatch "\.(sql|bak|log|sh|py)$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+
+# Prevent access to .htaccess itself
+<Files .htaccess>
+    Order Allow,Deny
+    Deny from all
+</Files>
